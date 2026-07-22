@@ -75,10 +75,10 @@ Details + data models: `docs/ARCHITECTURE.md`.
 - [x] Dev environment set up (Xcode, Android Studio + emulator, Node, CLI tools)
 - [x] Project scaffolded with `create-expo-app` (blank-typescript)
 - [x] `expo-doctor` passes 20/20
-- [ ] Smoke test on emulator
+- [x] Smoke test on emulator
 - [ ] Core libs installed
-- [ ] Folder structure created
-- [ ] `useClockTick` + static clock on screen
+- [x] Folder structure created
+- [x] `useClockTick` + static clock on screen
 - [ ] Split-flap FlipDigit animation
 - [ ] Settings + themes + persistence
 - [ ] Polish (sound, keep-awake, burn-in)

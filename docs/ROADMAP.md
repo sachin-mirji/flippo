@@ -9,18 +9,18 @@ gets trivial store review; face-analysis gets scrutiny).
 - [x] Xcode, Android Studio + emulator, Node, Watchman, JDK 17, CocoaPods, EAS CLI
 - [x] `create-expo-app` (blank-typescript)
 - [x] `expo-doctor` 20/20
-- [ ] Smoke test blank app on emulator
+- [x] Smoke test blank app on emulator
 - [ ] ESLint + Prettier (or Biome)
 - [ ] Git repo + first commit
 - [ ] Sentry (crash reporting) — can defer
 
 ## Phase 1 — Core flip clock MVP
 - [ ] Install: reanimated v4, worklets, expo-font (Roboto Mono / JetBrains Mono)
-- [ ] Create `src/` feature-based folder structure
+- [x] Create `src/` feature-based folder structure
 - [ ] `ClockSettings` type + a minimal `settingsStore` (Zustand) with defaults
-- [ ] `useClockTick` hook (one interval, aligned to the second)
-- [ ] Static (non-animated) `ClockDisplay` — big HH:MM on screen, ticking
-- [ ] `TopBar` with date
+- [x] `useClockTick` hook (one interval, aligned to the second)
+- [x] Static (non-animated) clock — big HH:MM:SS on screen, ticking (as `Clock`)
+- [ ] `TopBar` with date (date currently folded into `Clock`; extract with battery)
 - [ ] `FlipDigit` split-flap animation (the hard part — build last in this phase)
 - [ ] `FlipUnit` (pairs of digits), seconds in the corner
 - [ ] Verify 60fps on a low-end Android
